@@ -1,2 +1,2 @@
-service start httpd
+service  httpd restart
 
