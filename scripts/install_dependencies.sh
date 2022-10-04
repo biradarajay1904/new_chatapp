@@ -1,2 +1,2 @@
-apt install -y httpd
+apt install  httpd -y
 
