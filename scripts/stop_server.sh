@@ -1,4 +1,2 @@
-isExistApp = `pgrep httpd`
-if [[ -n  $isExistApp ]]; then
-    service httpd stop        
-fi
+sudo systemctl stop gunicorn.service
+sudo rm -f -r /Django-Chat-Application

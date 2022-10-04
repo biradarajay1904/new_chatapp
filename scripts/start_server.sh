@@ -1,2 +1,3 @@
-service  httpd restart
+sudo systemctl start gunicorn.service
+
 
